@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "prisma.prisma",
+    "timitejumola.chakra-ui-doc",
+    "itelofilho.chakra-ui-cheatsheet",
+    "ms-azuretools.vscode-docker",
+    "mikestead.dotenv",
+    "dbaeumer.vscode-eslint",
+    "fauna.faunadb",
+    "orta.vscode-jest",
+    "stringham.move-ts",
+    "foxundermoon.next-js",
+    "edgarjs.next-js-commands",
+    "pulkitgangwar.nextjs-snippets",
+    "pulkitgangwar.next-js-react-storybook-commands",
+    "rvest.vs-code-prettier-eslint",
+    "dongido.sync-env",
+    "jpoissonnier.vscode-styled-components"
+  ],
+  "unwantedRecommendations": []
+}
