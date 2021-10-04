@@ -1,7 +1,4 @@
 import { useColorMode } from "@chakra-ui/color-mode"
-import { MoonIcon, SunIcon } from "@chakra-ui/icons"
-import { Box, HStack } from "@chakra-ui/layout"
-import { Switch } from "@chakra-ui/switch"
 import { NextSeo } from "next-seo"
 import { ReactNode } from "react"
 
@@ -16,13 +13,6 @@ const Layout = ({ title, children }: LayoutProps) => {
   return (
     <>
       <NextSeo title={title} />
-      <Box position="fixed" top="20px" right="20px">
-        <HStack>
-          <SunIcon />
-          <Switch isChecked={colorMode === "dark"} onChange={(e) => toggleColorMode()} />
-          <MoonIcon />
-        </HStack>
-      </Box>
       {children}
     </>
   )
