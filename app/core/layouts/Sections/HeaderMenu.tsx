@@ -1,8 +1,14 @@
-import React from "react"
+import React, { ReactChild } from "react"
 import { Box, Flex, Text, Button, Link } from "@chakra-ui/react"
 import Logo from "../ui/Logo"
 
-const MenuItem = ({ children, isLast = false, to = "/", ...rest }) => {
+interface MenuItemProps {
+  children: ReactChild
+  isLast?: boolean
+  to?: string
+}
+const MenuItem = (props: MenuItemProps, { ...rest }) => {
+  const { children, to = "/", isLast } = props
   return (
     <Text mb={{ base: isLast ? 0 : 8, sm: 0 }} mr={{ base: 0, sm: isLast ? 0 : 8 }} {...rest}>
       <Link href={to}>{children}</Link>
