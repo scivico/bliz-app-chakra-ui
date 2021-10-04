@@ -57,7 +57,12 @@ export const Hero = ({ ...rest }: any) => {
       </Stack>
       <Box w={{ base: "80%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}>
         {/* TODO: Make this change every X secs */}
-        <Image src="https://source.unsplash.com/640x480/?clinic" size="100%" rounded="1rem" />
+        <Image
+          src="https://source.unsplash.com/640x480/?clinic"
+          alt="heroImage"
+          size="100%"
+          rounded="1rem"
+        />
       </Box>
     </Flex>
   )
