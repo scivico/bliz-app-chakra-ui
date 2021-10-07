@@ -52,7 +52,7 @@ export const Hero = ({ ...rest }: any) => {
           </Button>
         </Link>
         <Text fontSize="xs" mt={2} textAlign="center" color="primary.800" opacity="0.6">
-          No se requiere trajeta de crédito.
+          No se requiere trajeta.
         </Text>
       </Stack>
       <Box w={{ base: "80%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}>

@@ -86,7 +86,7 @@ export default function WithSpeechBubblesTestimonials() {
         <Stack direction={{ base: "column", md: "row" }} spacing={{ base: 10, md: 4, lg: 10 }}>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Efficient Collaborating</TestimonialHeading>
+              <TestimonialHeading>Colaboración Eficiente</TestimonialHeading>
               <TestimonialText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet
                 nibh lectus feugiat nunc sem.
@@ -102,7 +102,7 @@ export default function WithSpeechBubblesTestimonials() {
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Intuitive Design</TestimonialHeading>
+              <TestimonialHeading>Diseño Intuitivo</TestimonialHeading>
               <TestimonialText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet
                 nibh lectus feugiat nunc sem.
@@ -118,7 +118,7 @@ export default function WithSpeechBubblesTestimonials() {
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Mindblowing Service</TestimonialHeading>
+              <TestimonialHeading>Servicio Increible</TestimonialHeading>
               <TestimonialText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet
                 nibh lectus feugiat nunc sem.
