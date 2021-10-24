@@ -31,7 +31,7 @@ export const HeaderMenu = (props: any) => {
         >
           <MenuItem to={"/"}>Inicio</MenuItem>
           <MenuItem to={"/how"}>Cómo funciona</MenuItem>
-          <MenuItem to={"/faetures"}>Productos </MenuItem>
+          <MenuItem to={"/modules"}>Productos </MenuItem>
           <MenuItem to={"/pricing"}>Precios </MenuItem>
           <MenuItem to={"/signup"}>
             <Button

@@ -1,10 +1,13 @@
+import { Image, LinkBox, LinkOverlay } from "@chakra-ui/react"
+import { Routes } from "blitz"
 import React from "react"
-import { Box, Text, Image } from "@chakra-ui/react"
 
 export default function Logo(props: any) {
   return (
-    <Box {...props}>
-      <Image src="/logo.png" alt="Logo" size="100%" />
-    </Box>
+    <LinkBox as="landing" {...props}>
+      <LinkOverlay href="/landing">
+        <Image src="/logo.png" alt="Logo" size="100%" />
+      </LinkOverlay>
+    </LinkBox>
   )
 }
